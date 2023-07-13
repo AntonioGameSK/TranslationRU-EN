@@ -73,6 +73,6 @@ def traverse_directory(directory):
 
     print(f"Number of English.dat files translated: {num_translated}")
 
-
-root_directory = "C:\\Users\\anton\\OneDrive\\Desktop\\Work\\Working"
+    #You need to add double blackslashesh when putting a directory in order for it to work: "C:\\Users\\Appdata\\Etc..."
+root_directory = "C:\\Users\\Appdata\\Etc..."
 traverse_directory(root_directory)
